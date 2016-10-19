@@ -1,4 +1,5 @@
 
+#pod repo push --local-only --allow-warnings wowdsgn wow-vendor-ui.podspec
 
 Pod::Spec.new do |s|
 
@@ -27,5 +28,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'Kingfisher'
 	s.dependency 'EZSwiftExtensions'
-  s.dependency 'wow-util'
+  s.dependency 'wow-util', '0.1.0'
 end
