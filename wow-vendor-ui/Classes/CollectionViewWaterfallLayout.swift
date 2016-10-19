@@ -197,7 +197,7 @@ open class CollectionViewWaterfallLayout: UICollectionViewLayout {
                 
                 let xOffset = Float(sectionInset.left) + Float(itemWidth + minimumColumnSpacing) * Float(columnIndex)
                 let yOffset = columnHeights[columnIndex]
-                var itemSize = (delegate?.collectionView(collectionView!, layout: self, sizeForItemAtIndexPath: indexPath))!
+                let itemSize = (delegate?.collectionView(collectionView!, layout: self, sizeForItemAtIndexPath: indexPath))!
                 var itemHeight: Float = 0.0
                 
                 if itemSize.height > 0 && itemSize.width > 0 {

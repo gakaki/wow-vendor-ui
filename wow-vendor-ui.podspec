@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
 
   s.name             = 'wow-vendor-ui'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of wow-vendor-ui.'
+  s.summary          = 'wow-vendor-ui is wowdsgn 3rdparty lib'
 
   s.description      = <<-DESC
-		wow vendo ui
+		wow vendo ui is for 3rd party ui not combie every day
                        DESC
 
   s.homepage         = 'https://github.com/gakaki/wow-vendor-ui'
