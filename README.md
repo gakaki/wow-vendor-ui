@@ -27,3 +27,4 @@ gakaki, gakaki@gmail.com
 ## License
 
 wow-vendor-ui is available under the MIT license. See the LICENSE file for more info.
+# wow-vendor-ui
