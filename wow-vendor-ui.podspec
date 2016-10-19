@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'wow-vendor-ui'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'wow-vendor-ui is wowdsgn 3rdparty lib'
 
   s.description      = <<-DESC
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'Kingfisher'
 	s.dependency 'EZSwiftExtensions'
-  s.dependency 'wow-util', '0.1.0'
+  s.dependency 'wow-util'
 end
